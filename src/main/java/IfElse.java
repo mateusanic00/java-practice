@@ -1,7 +1,7 @@
 public class IfElse {
     public static void main (String[] args){
-        int grade = 8;
-        if (grade > 7) {
+        int grade = 7;
+        if (grade >= 7) {
             System.out.println("Approved");
 
             }
