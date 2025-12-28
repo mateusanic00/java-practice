@@ -31,5 +31,6 @@ public class Produto {
             return true;
         }
     }
+    public double GetPreco(){ return preco; }
 
 }
