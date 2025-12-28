@@ -11,6 +11,11 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
+    public void ShowStatus(){
+        System.out.println("Produto: " + nome + "\n" +
+                            "Preco: " + preco + "\n" +
+                            "Quantidade em estoque: " + quantidade);
+    }
 
     public void addAmount (int qtd) {
         if (qtd > 0){
@@ -19,10 +24,10 @@ public class Produto {
     }
 
     public boolean removeAmount (int qtd){
-        if (qtd > quantidade){
+        if (qtd > quantidade && qtd <= quantidade){
             return false;
         } else {
-            quantidade = qtd -= quantidade;
+            quantidade = quantidade -= qtd;
             return true;
         }
     }

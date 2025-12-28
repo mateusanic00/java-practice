@@ -10,8 +10,5 @@ public class Pessoa {
         this.cpf = cpf;
         this.saldo = saldo;
     }
-    public boolean comprar(int qtd){
-        double ValorTotal = produto.getPreco() * quantidade;
 
-    }
 }
