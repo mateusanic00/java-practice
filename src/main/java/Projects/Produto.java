@@ -32,5 +32,6 @@ public class Produto {
         }
     }
     public double GetPreco(){ return preco; }
+    public boolean Buy(int qtdCompra){ return removeAmount(qtdCompra);}
 
 }
