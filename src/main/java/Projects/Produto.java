@@ -24,7 +24,7 @@ public class Produto {
     }
 
     public boolean removeAmount (int qtd){
-        if (qtd > quantidade && qtd <= quantidade){
+        if (qtd > 0 && qtd >= quantidade){
             return false;
         } else {
             quantidade = quantidade -= qtd;

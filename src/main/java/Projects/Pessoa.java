@@ -12,7 +12,9 @@ public class Pessoa {
     }
     public void ShowSaldo(){ System.out.println(saldo); }
     public boolean comprar (Produto produto, int quantidade){
+
         double valorTotal = produto.GetPreco() * quantidade;
+
         if (valorTotal > saldo){
             System.out.println("Saldo insuficiente!");
             return false;
