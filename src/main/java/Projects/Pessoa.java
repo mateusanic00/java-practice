@@ -10,7 +10,7 @@ public class Pessoa {
         this.cpf = cpf;
         this.saldo = saldo;
     }
-
+    public void ShowSaldo(){ System.out.println(saldo); }
     public boolean comprar (Produto produto, int quantidade){
         double valorTotal = produto.GetPreco() * quantidade;
         if (valorTotal > saldo){
@@ -27,6 +27,5 @@ public class Pessoa {
         }
         System.out.println("Estoque insuficiente, volte mais tarde.");
         return false;
-    }
-
+}
 }
