@@ -9,4 +9,5 @@ public class User {
         this.id = id;
         this.idade = idade;
     }
+    public int getId(){return id;}
 }
