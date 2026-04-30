@@ -1,4 +1,4 @@
-package Projects.ScheduleSystem;
+package Exercises.ScheduleSystem;
 
 public class Scheduling {
     private User user;

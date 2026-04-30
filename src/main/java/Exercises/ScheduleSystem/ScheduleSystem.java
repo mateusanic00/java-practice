@@ -1,4 +1,4 @@
-package Projects.ScheduleSystem;
+package Exercises.ScheduleSystem;
 import java.util.ArrayList;
 import java.util.List;
 public class ScheduleSystem {

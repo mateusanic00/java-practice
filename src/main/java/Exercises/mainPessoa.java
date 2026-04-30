@@ -1,4 +1,4 @@
-package Projects;
+package Exercises;
 
 public class mainPessoa {
     public static void main (String... args){

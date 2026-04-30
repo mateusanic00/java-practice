@@ -1,4 +1,4 @@
-package Projects;
+package Exercises;
 
 public class MainCarro {
     public static void main (String... args){

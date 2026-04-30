@@ -1,11 +1,11 @@
-package Projects;
+package Exercises;
 
 public class Produto {
     private String nome;
-    private double preco;
+    private float preco;
     private int quantidade;
 
-    public Produto (String nome, double preco, int quantidade){
+    public Produto (String nome, float preco, int quantidade){
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
@@ -31,7 +31,7 @@ public class Produto {
             return true;
         }
     }
-    public double GetPreco(){ return preco; }
+    public float GetPreco(){ return preco; }
     public boolean Buy(int qtdCompra){ return removeAmount(qtdCompra);}
 
 }

@@ -1,4 +1,4 @@
-package Projects;
+package Exercises;
 
 public class Carro {
     private String nome;

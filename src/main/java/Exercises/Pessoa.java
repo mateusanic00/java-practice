@@ -1,11 +1,11 @@
-package Projects;
+package Exercises;
 
 public class Pessoa {
     private String nome;
-    private double saldo;
+    private float saldo;
     private String cpf;
 
-    public Pessoa (String nome, String cpf, double saldo){
+    public Pessoa (String nome, String cpf, float saldo){
         this.nome = nome;
         this.cpf = cpf;
         this.saldo = saldo;
@@ -13,7 +13,7 @@ public class Pessoa {
     public void ShowSaldo(){ System.out.println(saldo); }
     public boolean comprar (Produto produto, int quantidade){
 
-        double valorTotal = produto.GetPreco() * quantidade;
+        float valorTotal = produto.GetPreco() * quantidade;
 
         if (valorTotal > saldo){
             System.out.println("Saldo insuficiente!");
